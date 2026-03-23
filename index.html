@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bogotá Bajo Agua</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1547683905-f686c993aae5');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.section h2 {
+    color: #0a3d62;
+    margin-bottom: 20px;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+    color: #1e3799;
+}
+
+.card p {
+    padding: 0 15px 20px;
+}
+
+footer {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.quote {
+    background: #dff9fb;
+    padding: 20px;
+    border-left: 5px solid #0a3d62;
+    margin-top: 20px;
+    font-style: italic;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bogotá Bajo Agua</h1>
+    <p>Soluciones para las inundaciones en el norte de la ciudad</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Introducción</h2>
+        <p>
+        Las inundaciones en el norte de Bogotá son un problema recurrente causado por fallas estructurales, urbanización acelerada y el cambio climático.
+        Sin embargo, existen soluciones reales que pueden transformar esta situación.
+        </p>
+        <div class="quote">
+        “La solución no está en reaccionar, sino en planificar.”
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>1. Modernización del sistema de drenaje</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581090700227-1e8b87b7c5e4">
+                <h3>Ampliación de redes</h3>
+                <p>Incrementar la capacidad del alcantarillado para soportar lluvias intensas.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62">
+                <h3>Mantenimiento</h3>
+                <p>Limpieza constante para evitar obstrucciones en el sistema.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>2. Drenaje Urbano Sostenible (SUDS)</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+                <h3>Techos verdes</h3>
+                <p>Reducen el impacto de la lluvia y mejoran la infiltración.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29">
+                <h3>Pavimentos permeables</h3>
+                <p>Permiten que el agua se infiltre en el suelo.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Recuperación de humedales</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+                <h3>Restauración</h3>
+                <p>Los humedales absorben grandes volúmenes de agua.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+                <h3>Protección</h3>
+                <p>Evitar la urbanización en zonas naturales.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Reservorios y almacenamiento</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1">
+                <h3>Tanques de retención</h3>
+                <p>Almacenan agua durante lluvias intensas.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+                <h3>Parques inundables</h3>
+                <p>Espacios diseñados para retener agua temporalmente.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Planificación urbana</h2>
+        <p>
+        Es fundamental controlar el crecimiento urbano y proteger zonas de infiltración natural para evitar futuras inundaciones.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>6. Tecnología y monitoreo</h2>
+        <p>
+        El uso de sensores y sistemas de alerta temprana permite anticipar eventos críticos y reducir riesgos.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>7. Cultura ciudadana</h2>
+        <p>
+        Evitar arrojar basura en las calles y mantener limpios los drenajes es clave para el buen funcionamiento del sistema.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Conclusión</h2>
+        <p>
+        Las inundaciones no son inevitables. Con planificación, ingeniería y compromiso ciudadano, Bogotá puede enfrentar este desafío.
+        </p>
+        <div class="quote">
+        “Cada inundación es una advertencia. ¿Vamos a seguir ignorándola?”
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Proyecto académico | Ingeniería Civil | Bogotá</p>
+</footer>
+
+</body>
+</html>
